@@ -1,4 +1,4 @@
-### 令致官网
+### 服务队渲染
 
 采用 Next.js 框架, 进行项目构建.
 
@@ -12,20 +12,21 @@
 
 - .next , Next.js 运行所需要的核心目录
 - build , webpack 自定义配置文件
-- components , 纯组件目录
-- constants , 业务逻辑配置目录, 如 路由、 Api 等统一配置
-- containers , 业务组件目录
-- less , 初始化 less 目录, 全局引入变量
-- |---> less-var.less , 全局 less 变量
-- |---> styles.css , 全局 css 初始化文件
 - next-build , 打包文件的产物
 - out , 打包文件的产物
-- pages , Next.js 框架定义的路由入口
 - public , 公共资源
-- static , 静态文件目录, 这里存放了图片、多语言配置文件
-- |---> images , 图片资源目录
-- |---> locales , 多语言文件目录
-- utils , 公共函数目录
+- |---> images , 这里存放了图片、
+- src , 开发目录
+- |---> components , 纯组件目录
+- |---> constants , 业务逻辑配置目录, 如 路由、 Api 等统一配置
+- |---> containers , 业务组件目录
+- |---> pages , Next.js 框架定义的路由入口
+- |---> utils , 公共函数目录
+- |---> assets, 资源目录
+- |---> |---> less, 样式目录
+- |---> |---> |---> style.css , 全局 css 初始化文件
+- |---> |---> |---> less-var.less , 全局 less 变量
+- |---> |---> locales, 多语言目录, 多语言配置文件
 
 ### 部署
 

@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=Edge" />
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="findora 官网"></meta>
+          <meta name="description" content="SlaShare - 官网"></meta>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
