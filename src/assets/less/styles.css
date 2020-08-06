@@ -1,0 +1,17 @@
+/**
+ * @ Author: Muniz
+ * @ Create Time: 2020-06-19 17:40:07
+ * @ Modified by: Muniz
+ * @ Modified time: 2020-06-20 23:58:34
+ * @ Description: 全局css 配置文件
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  min-width: 576px;
+}

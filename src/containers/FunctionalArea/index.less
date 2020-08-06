@@ -1,0 +1,68 @@
+.findora-functional-area {
+  .functional-area-box {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 200px;
+    color: #323133;
+    .title {
+      margin-bottom: 60px;
+      line-height: 1;
+      font-size: 48px;
+      font-weight: 500;
+      font-family: SFProText-Medium, SFProText;
+    }
+    .functional-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        width: 280px;
+        .photo {
+          width: 80px;
+          height: 80px;
+          background: #6b6b6b;
+        }
+        .title {
+          margin-top: 20px;
+          height: 23px;
+          font-size: 16px;
+          line-height: 25px;
+          font-weight: 400;
+          font-family: Poppins-Regular, Poppins;
+        }
+      }
+    }
+    .more {
+      margin-top: 40px;
+      color: #661aff;
+      font-size: 18px;
+      font-family: Poppins-Regular, Poppins;
+      font-weight: 400;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .findora-functional-area {
+    .functional-area-box {
+      .title {
+        text-align: center;
+      }
+      .functional-list {
+        flex-direction: column;
+        align-items: center;
+        li {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .more {
+        text-align: center;
+      }
+    }
+  }
+}
