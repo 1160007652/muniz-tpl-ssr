@@ -20,7 +20,7 @@ const plugins = [
   '@babel/plugin-syntax-dynamic-import',
   '@babel/plugin-proposal-optional-chaining',
   '@babel/plugin-transform-runtime',
-  ['import', { libraryName: 'antd', libraryDirectory: 'es', style: true }],
+  ['import', { libraryName: 'antd' }], //  libraryDirectory: 'es', style: true
 ];
 
 module.exports = function (api) {
@@ -32,7 +32,8 @@ module.exports = function (api) {
       // 开发环境配置
       development: {
         presets: [['@babel/preset-react', { development: true }]],
-        plugins: ['react-hot-loader/babel'],
+        plugins: [],
+        // 'react-hot-loader/babel'
       },
       // 生产环境配置
       production: {
