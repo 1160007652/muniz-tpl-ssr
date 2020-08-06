@@ -3,15 +3,7 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "json.schemas": [
-    {
-      "fileMatch": [
-        "/**/public/manifest.dev.json",
-        "/**/public/manifest.prod.json"
-      ],
-      "url": "http://json.schemastore.org/chrome-manifest"
-    }
-  ],
+  "json.schemas": [],
   // eslint 保存自动格式化
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
