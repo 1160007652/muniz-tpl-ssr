@@ -4,12 +4,12 @@
     "allowSyntheticDefaultImports": false,
     "baseUrl": "./",
     "paths": {
-      "_containers/*": ["./src/containers/*"],
-      "_components/*": [".src/components/*"],
-      "_constants/*": ["./src/constants/*"],
-      "_pages/*": ["./src/pages/*"],
-      "_utils/*": ["./src/utils/*"],
-      "_src/*": ["./src/*"]
+      "_containers/*": ["src/containers/*"],
+      "_components/*": ["src/components/*"],
+      "_constants/*": ["src/constants/*"],
+      "_pages/*": ["src/pages/*"],
+      "_utils/*": ["src/utils/*"],
+      "_src/*": ["src/*"]
     }
   },
   "exclude": ["node_modules", ".next", "public", "static", "out", "next-build"]
