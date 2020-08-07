@@ -6,32 +6,30 @@
  * @ Description: 首页
  */
 
-import Head from "next/head";
-import Banner from "_containers/Banner";
-import React from "react";
-import Header from "_containers/Header";
-import Footer from "_containers/Footer";
+import Head from 'next/head';
+import React from 'react';
+import Banner from '_containers/Banner';
 
-import FunctionArea from "_containers/FunctionalArea";
-import Introduction from "_containers/Introduction";
-
-import "./index.less";
+import './index.less';
 
 class HomePage extends React.Component {
   static propTypes = {};
+  static getInitialProps = async (appContext) => {
+    const { mobxStore } = appContext;
+
+    mobxStore.testStore.counterAmount(Number((Math.random() * 100).toFixed()));
+
+    return {};
+  };
   render() {
     return (
       <div className="page-home">
         <Head>
-          <title>Findora 官网</title>
+          <title>React Next.js 同构网站</title>
         </Head>
-        <Header />
         <main>
           <Banner />
-          <FunctionArea />
-          <Introduction />
         </main>
-        <Footer />
       </div>
     );
   }

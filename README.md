@@ -22,6 +22,8 @@
 - |---> containers , 业务组件目录
 - |---> pages , Next.js 框架定义的路由入口
 - |---> utils , 公共函数目录
+- |---> serveices , 服务层请求目录
+- |---> stores , Mobx 数据状态管理目录
 - |---> assets, 资源目录
 - |---> |---> less, 样式目录
 - |---> |---> |---> style.css , 全局 css 初始化文件
